@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "803615836511",
+    "project_id": "choco-mo-app",
+    "storage_bucket": "choco-mo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803615836511:android:7b2302b52676d789c6ceea",
+        "android_client_info": {
+          "package_name": "com.example.choco_moapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803615836511-chdokedgijhsg24fbiq7rn4r5edn93dj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYyHyWw2NmOEQby8v2SOsgtqFsWIVsg4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803615836511-chdokedgijhsg24fbiq7rn4r5edn93dj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
