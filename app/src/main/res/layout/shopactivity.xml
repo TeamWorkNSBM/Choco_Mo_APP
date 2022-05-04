@@ -1,43 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ShopactivityActivity">
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/card_view"
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="10dp"
-        app:cardElevation="3dp"
-        android:layout_margin="15dp"
-        android:foreground="?selectableItemBackground"
-        android:clickable="true"
-        />
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"/>
+        android:layout_height="match_parent" />
+</RelativeLayout>
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_launcher_background"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="45dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="User Name"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="211dp"
-        tools:layout_editor_absoluteY="81dp" />
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
