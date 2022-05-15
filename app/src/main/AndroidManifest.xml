@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Choco_MoApp">
         <activity
+            android:name=".checkoutList"
+            android:exported="false" />
+        <activity
             android:name=".checkOut"
             android:exported="false" />
         <activity
