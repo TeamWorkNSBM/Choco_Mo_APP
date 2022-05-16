@@ -93,20 +93,5 @@ class Products_Home : AppCompatActivity() {
             }
     }
 
-    fun loadProducts(){
-        if(data_1.count() == 0 && data_2.count() == 0){
-            popAlert.showAlert("Opzzz!", "Product list is empty", false, null)
-        } else {
-            // This will pass the ArrayList to our Adapter
-            val adapter_1 = CustomAdapter(data_1, this)
-            val adapter_2 = CustomAdapter(data_2, this)
 
-            // Setting the Adapter with the recyclerview
-            product_list_1.adapter = adapter_1
-            product_list_2.adapter = adapter_2
-
-            //products_home_scroll_view.fullScroll(ScrollView.FOCUS_UP)
-            products_home_scroll_view.smoothScrollTo(0, 0)
-        }
-    }
 }
